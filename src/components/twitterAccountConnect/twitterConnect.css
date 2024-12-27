@@ -1,0 +1,29 @@
+.twitter-connection-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.connect-twitter-btn {
+    display: flex;
+    align-items: center;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.twitter-connected-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.twitter-profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

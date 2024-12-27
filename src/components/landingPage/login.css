@@ -1,0 +1,101 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+    background-image: url("../../images/download1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mainContainerDiv {
+    position: absolute;
+    top: 15%;
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.loginDiv {
+    height: 100%;
+    z-index: 1;
+    width: 50%;
+}
+
+.mainLoginDiv {
+    height: 70%;
+    width: 50%;
+    position: relative;
+    top: 45%;
+    left: 40%;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(57, 137, 81, 23%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.photoDiv {
+    background-image: url("../../images/AnalyzeData.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 85%;
+    width: 35%;
+    position: relative;
+    top: 50%;
+    transform: translate(40%, -50%);
+}
+
+.img {
+    background-image: url("https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hr {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%;
+    height: 0.1px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.h1 {
+    font-size: 30px;
+    font-weight: 1000;
+    color: rgb(0, 147, 49);
+    margin: 0;
+}
+
+.pricacy_policy {
+    font-size: 12px;
+    font-weight: thin;
+    font-family: 'Inter', sans-serif;
+    margin-top: 20%;
+}

@@ -1,0 +1,204 @@
+.section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+    background-image: url("../../images/download1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.userAvatar {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 55%;
+    width: 3.5%;
+    margin: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.userAvatarContent {
+    position: relative;
+    height: 45%;
+    width: 45%;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.mainContainerDivForUpload {
+    position: absolute;
+    top: calc(10% + 20px);
+    width: 100%;
+    height: 90%;
+}
+
+.uploadDivParent {
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 75%;
+    width: 50%;
+    background-color: rgba(57, 137, 81, 23%);
+    border-radius: 15px;
+}
+
+.UploadDivInnner {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20%;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+    outline: none;
+    border: 0px;
+}
+
+.UploadDivInnner:hover {
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease;
+}
+
+.UploadContentP {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.uploadIcon {
+    height: 25%;
+    width: 10%;
+    background-image: url("https://img.icons8.com/?size=100&id=82709&format=png&color=000000");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.uploadMainPostingDiv {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    height: 65%;
+    width: 80%;
+    background-color: white;
+}
+
+.postOnXbutton {
+    position: relative;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    font-weight: 1000;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -23%);
+    user-select: none;
+}
+
+.uploadMainContentDiv {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 35%;
+    width: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.uploadMainContentDivAvatarDiv {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploadMainContentDivTextDiv {
+    width: 80%;
+}
+
+.uploadMainContentDivTextDivMainP {
+    font-size: 1.2vw;
+    color: rgba(0, 0, 0, 0.5);
+    width: 95%;
+}
+
+.uploadMainContentDivTextDivMainP span {
+    font-weight: 1000;
+    color: black;
+}
+
+.uploadMainContentDivTextDivMainP span:nth-child(3) {
+    color: #1CB132;
+}
+
+.ContentDayDiv {
+    position: relative;
+    height: 10%;
+    width: 20%;
+    top: 5%;
+    left: 20%;
+    background-color: white;
+    margin: 0;
+    display: inline-block;
+}
+
+.ContentProblemNameDiv {
+    position: relative;
+    height: 10%;
+    width: 30%;
+    top: 5%;
+    left: 30%;
+    background-color: white;
+    margin: 0;
+    display: inline-block;
+}
+
+.ContentDayInput {
+    outline: none;
+    border: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ContentProblemNameInput {
+    outline: none;
+    border: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
